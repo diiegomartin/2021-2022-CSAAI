@@ -1,35 +1,8 @@
 
 /* Fondo de toda la página */
 body{
-    background-color: rgb(108, 125, 156);
+    background-image: url('FondoBadBunny.jpg');
+    background-size: 200px 50px;
+    background-size: 100% 100%; 
     color: white;
-
-    padding: 10px;
-    margin: 10px;
-    border: solid;
 }
-
-h1{
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
-h2{
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
-
-table{
-    background-color: rgb(255, 255, 255);
-    color: black;
-
-    padding: 10px;
-    margin: 10px;
-    border: solid;
-}
-
-ol{
-    background-color: rgb(23, 73, 97);
-    color: wheat;
-
-}
-
