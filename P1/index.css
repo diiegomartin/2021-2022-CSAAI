@@ -2,7 +2,41 @@
 /* Fondo de toda la página */
 body{
     background-image: url('FondoBadBunny.jpg');
-    background-size: 200px 50px;
+    background-size: 50px 50px;
     background-size: 100% 100%; 
     color: white;
+    
+    margin: 20px;
+    padding: 10px; /* Relleno */
+    border:solid;
+    border-color: aliceblue;
+
 }
+
+/* 1º - PRIMERA FILA - */
+
+div.PrimeraFila{
+    content: "";
+    clear: both;
+    display: table;
+}
+img.Foto{
+    float: left;
+    width: 20%;
+    padding: 30px;
+}
+div.SobreMi{
+    float: right;
+    width: 70%;
+    padding: 30px;
+}
+
+
+
+table{
+    padding: 5px;  /* relleno */
+    margin: 10px;  /* Margen */
+    border: solid;
+    border-color: white;
+}
+
