@@ -5,37 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="calculadora.js" defer></script>
+    <link rel="stylesheet" href="calculadora.css">
     <title>Calculadora 0</title>
 </head>
 <body>
-    <p id="display">0</p>
-    <div class="Fila1">
-        <button type="button" id="boton7">7</button>
-        <button type="button" id="boton8">8</button>
-        <button type="button" id="boton9">9</button>
-        <button type="button" id="suma">+</button>
+    <div class="calculator">
+      <p>casio</p>
+      <p id="display">0</p>
+      <button type="button" id="clear">AC</button>
+      <button type="button" id="borrar">DEL</button>
+      <button type="button" id="porcentaje" value="*0.01" class="operador">%</button>
+      <button type="button" id="dividir" value="/" class="operador">÷</button>
+      <br>
+      <button type="button" id="boton7" value="7" class="digito">7</button>
+      <button type="button" id="boton8" value="8" class="digito">8</button>
+      <button type="button" id="boton9" value="9" class="digito">9</button>
+      <button type="button" id="multiplicar" value="*" class="operador">x</button>
+      <br>
+      <button type="button" id="boton4" value="4" class="digito">4</button>
+      <button type="button" id="boton5" value="5" class="digito">5</button>
+      <button type="button" id="boton6" value="6" class="digito">6</button>
+      <button type="button" id="restar" value="-" class="operador">-</button>
+      <br>
+      <button type="button" id="boton1" value="1" class="digito">1</button>
+      <button type="button" id="boton2" value="2" class="digito">2</button>
+      <button type="button" id="boton3" value="3" class="digito">3</button>
+      <button type="button" id="sumar" value="+" class="operador">+</button>
+      <br>
+      <button type="button" id="boton0" value="0" class="digito">0</button>
+      <button type="button" id="punto" value="." class="digito">.</button>
+      <button type="button" id="elevar" value="**" class="operador">^</button>
+      <button type="button" id="igual">=</button>
     </div>
-
-    <div class="Fila2">
-        <button type="button" id="boton4">4</button>
-        <button type="button" id="boton5">5</button>
-        <button type="button" id="boton6">6</button>
-        <button type="button" id="resta">-</button>
-    </div>
-
-    <div class="Fila3">
-        <button type="button" id="boton1">1</button>
-        <button type="button" id="boton2">2</button>
-        <button type="button" id="boton3">3</button>
-        <button type="button" id="multiplicacion">*</button>
-    </div>
-    
-    <div class="Fila4">
-        <button type="button" id="boton0">0</button>
-        <button type="button" id="division">/</button>
-        <button type="button" id="clear">AC</button>
-        <button type="button" id="igual">=</button>
-    </div>
-    
-</body>
+  </body>
+</html>
 </html>
