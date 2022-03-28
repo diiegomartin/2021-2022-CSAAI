@@ -15,5 +15,5 @@ DIEGO MARTÍN GRANJA
  Después hemos hecho dos bucles for que recorren y reconocen el array de dígitos y de signos.
  Tras los bucles, hemos creado una función para los dígitos, que básicamente con ayuda de los estados, son los que hacen que unicamente podamos hacer una operación con un único operador como se pide en la práctica.
  La otra función mostrada es la de los operadores, que tiene una mejora, y es para poder comenzar con unnúmero negativo a operar. Esto lo he conseguido gracias al identificador 'resta'.
- Por último he usado los comandos mostrados en el código para realizar las funciones de 'borrado de un dígito/operador', 'reinicio' y 'mostrar el resultado' al pulsar los botones respectivos.
+ Por último he usado los comandos mostrados en el código para realizar las funciones de 'borrado de un dígito/operador', 'reinicio' y 'mostrar el resultado' al pulsar los botones respectivo
 
