@@ -9,10 +9,7 @@ igual = document.getElementById("igual")
 restar = document.getElementById("restar")
 
 
-//-- Crear un array con todos los elementos
-//-- de la clase digito
-
-// ESTADOS DE 
+// ESTADOS DE DIGITOS/OPERADORES
 
 const ESTADO = {
   inicial : 0,
@@ -23,30 +20,27 @@ const ESTADO = {
 
 
 
-
+/* LLamamos a la clase dígito */
 digito = document.getElementsByClassName("digito")
-
+/* Bucle for que recorre todos los dígitos y los guarda al pulsar */
 for (i=0; i<digito.length; i++) {
   digito[i].onclick = (ev) => {
   numeros(ev.target.value);
   }
 }
 
-//-- Crear un array con todos los elementos
-//-- de la clase operador
+/* LLamamos al operador */
 operador = document.getElementsByClassName("operador")
-
+/* Bucle for que recorre todos los operadores y los guarda al pulsar */
 for (i=0; i<operador.length; i++) {
   operador[i].onclick = (ev) => {
   operation(ev.target.value);
   }
 }
 
-
-
-
 let state = ESTADO.inicial;
 
+/* Función para operadores */
 function operation(operador){
   if (state == ESTADO.inicial){ /* Para poder poner un menos al empezar */
       restar.onclick = () => {
@@ -60,6 +54,7 @@ function operation(operador){
   }
 }
 
+/* Funcion para dígitos */
 function numeros(digito){
   if (state == ESTADO.inicial){
     display.innerHTML = digito;
@@ -78,7 +73,7 @@ function numeros(digito){
 }
 
 
-//-- Evaluar la expresion
+/* Resultado */
 igual.onclick = () => {
   display.innerHTML = eval(display.innerHTML);
   state = ESTADO.primerdigito;
@@ -94,7 +89,7 @@ clear.onclick = () => {
 /* BORRAR EL ÚLTIMO NÚMERO U OPERADOR */
 
 borrar.onclick = () => {
-  /* Al borrar el primer dígito */
+  /* Al borrar el primer y segundo dígito */
     if (state == ESTADO.primerdigito || state == ESTADO.segundodigito){
       display.innerHTML = display.innerHTML.slice(0,-1)
     }

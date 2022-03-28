@@ -1,19 +1,23 @@
+
+/* Fuente descargada */
 @font-face {
   font-family: "Calculator";
   src: url("W95FA.otf");
 }
 
+/* Cambio de fondo  */
 body {
     background-image: url("mesa2.jpg");
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
   }
-
+/* Posición de la calculadora */
   .pos_calc{
     padding-right: 50px;
     padding-top: 300px;
   }
 
+  /* Calculadora */
   .calculadora {
     
     background-image: url("calc.jpg");
@@ -30,6 +34,7 @@ body {
     rotate: 15deg;
   }
 
+  /* CASIO */
   p{
     margin-top: 2px;
     margin-bottom: 2px;
@@ -38,6 +43,8 @@ body {
     font-weight: bold;
     color: whitesmoke
   }
+
+  /* Dígitos */
   button {
     width: 67px;
     height: 50px;
@@ -45,16 +52,20 @@ body {
     font-size: 20px;
     border-radius: 15px;
   }
+
+  /* Operadores */
   button.operador {
     font-weight: bold;
     color: rgb(180, 19, 19);
   }
 
+  /* Para mover todos los botones */
   .botones{
     text-align: center;
     justify-content: center;
   }
 
+  /* Pantalla */
   #display {
     background-color: #a4af95;
     color: #467702;
@@ -72,11 +83,13 @@ body {
     font-family: "Calculator";
   }
 
+  /* Reseteo */
   #clear{
     background-color: rgb(9, 65, 187);
     color: whitesmoke;
   }
 
+  /* Delete */
   #borrar{
     background-color: rgb(9, 65, 187);
     color: whitesmoke;
