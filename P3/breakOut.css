@@ -9,7 +9,7 @@ body{
   background-repeat: no-repeat;
   background-size: 1700px 800px;
   background-position-x: center;
-  background-position-y: 25%;
+  background-position-y: 34%;
 
 }
 p{
@@ -64,6 +64,15 @@ canvas {
   padding-right: 0;
 
 }
+
+h3{
+  color: white;
+  font-family: "Calculator";
+}
+  
+  
+  
+  
   
   
   

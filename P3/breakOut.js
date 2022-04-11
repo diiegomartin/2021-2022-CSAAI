@@ -11,7 +11,7 @@ var inicio = document.getElementById('inicio');
 //Añadimos sonidos:
 const sonido_paleta = new Audio('paddle_hit.mp3');
 const sonido_ladrillos = new Audio('roto.mp3');
-//const sonido_perdida = new Audio('caida.mp3');
+
 //-- Definir el tamaño del canvas
 canvas.width = 400;
 canvas.height = 250;
@@ -30,7 +30,7 @@ dy : 0,
 function drawBall() {
     ctx.beginPath();
     ctx.arc(ball.x, ball.y, ball.ballRadius, 0, Math.PI*2);
-    ctx.fillStyle = "#FFFFFF";
+    ctx.fillStyle = "white";
     ctx.fill();
     ctx.closePath();
 }
