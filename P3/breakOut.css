@@ -1,0 +1,70 @@
+
+@font-face {
+  font-family: "Calculator";
+  src: url("W95FA.otf");
+}
+
+body{
+  background-image: url("arcade3.jpg");
+  background-repeat: no-repeat;
+  background-size: 1700px 800px;
+  background-position-x: center;
+  background-position-y: 25%;
+
+}
+p{
+  font-style: "Calculator";
+    font-family: "Calculator";
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    color: aliceblue;
+  
+}
+#juego{
+  text-align: center;
+  width: 55%;
+  float: inherit;
+  margin-top: 50px;
+
+}
+#botones{
+  align-content: center bottom;
+  width: 25%;
+  padding: 10px;
+}
+
+canvas {
+    background-color: black;
+    background-position: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    background-attachment: scroll;
+    position:fixed;
+    margin-top: 12.70%;
+    margin-left: 6.6%;
+  }
+  .boton{
+    width: 80px;
+    height: 50px;
+    font-family: "Calculator";
+    font-size: 20px;
+    border-radius: 15px;
+	}
+
+  #botones{
+    margin-top: 30px;
+
+  }
+
+.bot_mov{
+  font-family: "Calculator";
+  padding-right: 0;
+
+}
+  
+  
+  
+  
